@@ -1187,16 +1187,17 @@ html, body {
 @media (min-width: 1100px) and (max-width: 1584.98px) {
     .dotted-line2 { right: calc(-20px + 100% - 792.5px); }
     .arrow2       { right: calc(110px + 100% - 792.5px); }
-}
 
+}
 
 /* ---------- "People Trust us" button: mobile ke font mein bhi poora text dikhe (heart ke neeche na chhupe) ---------- */
 @media (max-width: 1099.98px) {
     .btn-t {
         width: auto;
-        min-width: 135px;
-        padding-left: 32px;
+        min-width: 0;
+        padding-left: 28px;
         padding-right: 6px;
         white-space: nowrap;
     }
 }
+
