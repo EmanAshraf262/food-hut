@@ -1195,8 +1195,8 @@ html, body {
     .btn-t {
         width: auto;
         min-width: 135px;
-        padding-left: 40px;
-        padding-right: 16px;
+        padding-left: 32px;
+        padding-right: 6px;
         white-space: nowrap;
     }
 }
