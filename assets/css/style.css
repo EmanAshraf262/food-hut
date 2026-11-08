@@ -1,0 +1,1190 @@
+body {
+    font-family: "Sofia Pro";
+}
+
+.bg-header {
+    background: linear-gradient(to right, #ffffff, #fd7373);
+}
+
+:root {
+
+    --primary: #FC3333;
+    --secondary: #FDC55E;
+    --danger: #9CA3AF;
+}
+
+.navbar-nav {
+    gap: 30px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.logo {
+    width: 160px;
+
+}
+
+.dotted-line {
+    position: absolute;
+    top: 35px;
+    margin-left: 15px;
+}
+
+.arrow {
+    position: absolute;
+    width: 20px;
+    bottom: -185px;
+    right: -160px;
+}
+
+.dotted-line2 {
+    position: absolute;
+    right: -20px;
+    margin-right: 85px;
+}
+
+.arrow2 {
+    position: absolute;
+    right: 110px;
+}
+
+.color-1 {
+    color: var(--primary);
+}
+
+.color-2 {
+    color: var(--secondary);
+}
+
+.h-heading {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.h-heading2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-1 {
+    width: 380px;
+    background-color: white;
+    height: 50px;
+    padding: 10px 50px;
+    color: var(--danger);
+    border: 1px solid var(--danger);
+    font-size: 20px;
+    display: flex;
+}
+
+.search-box {
+    position: relative;
+    width: 380px;
+
+}
+
+.search-icon {
+    left: 20px;
+    top: 70%;
+    transform: translateY(-50%);
+    color: black;
+    position: absolute;
+    font-weight: 500;
+
+}
+
+.filter-icon {
+    position: absolute;
+    right: 30%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 500;
+    color: white;
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 65%;
+    transform: translateY(-50%);
+}
+
+.btn-2 {
+    width: 160px;
+    height: 40px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+
+}
+
+.play-icon {
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 15px rgba(252, 51, 51, 0.30);
+}
+
+.play-inner {
+    color: var(--primary);
+}
+
+.p-link {
+    font-size: 1.1rem;
+    color: var(--danger);
+    text-decoration: none;
+}
+
+.btn-t {
+    width: 135px;
+    height: 2rem;
+    background-color: #e49595;
+    border: none;
+    align-items: center;
+}
+
+.img {
+    left: 5px;
+    top: 60%;
+    transform: translateY(-70%);
+    position: absolute;
+}
+
+.trust {
+    top: -15px;
+    left: 15px;
+}
+
+.img-h {
+    width: 720px;
+    top: -20px;
+    position: relative;
+}
+
+/* section2 */
+.colr-1 {
+    color: var(--primary);
+}
+
+.sp-h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.sp-h2 {
+    font-weight: 450;
+}
+
+.food-card {
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #ffffff, #fd7373);
+    margin-top: 180px;
+}
+
+.image-box {
+    width: 250px;
+    height: 250px;
+}
+
+.food-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.text-content {
+    padding-top: 170px;
+}
+
+.text-kabab {
+    color: var(--primary);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.sub-text {
+    font-size: 0.9rem;
+    color: #191919;
+}
+
+.btn-3 {
+    position: absolute;
+    background-color: var(--primary);
+    border: none;
+    color: white;
+    width: 135px;
+    margin-top: 15px;
+    height: 40px;
+    font-size: 1.1rem;
+
+}
+
+.user-avaters {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.img-2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    object-fit: cover;
+    margin-left: -15px;
+    
+
+}
+
+.star {
+
+    color: #FFB800;
+    font-size: 35px;
+    margin-left: 8px;
+    line-height: 1;
+
+}
+
+.rating-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    margin-left: 4px;
+    line-height: 1;
+}
+.font-1{
+    font-size:2.8rem;
+    font-weight:950;
+    left: -240px;
+
+
+}
+.font1-1{
+    left:-255px;
+}
+.s-1{
+    color: var(--primary);
+}
+.s-2{
+    color: var(--secondary);
+}
+.font-2{
+    font-weight:500;
+    left: -140px;
+}
+.font2-2{
+    left:-160px;
+}
+.font2-2-2{
+left:-345px;
+}
+.font3{
+    left: -300px;
+}
+.ops{
+    font-size: 1.3rem;
+    font-weight:600;
+
+}
+.btn-a{
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    width:130px;
+    height:50px;
+    left:-340px;
+}
+.rose{
+    right:-180px;
+}
+.mob{
+    left:-340px;
+    top: -33px;
+}
+.mar{
+    margin:2px;
+}
+.services {
+    position: absolute;
+    left: 290px;
+    top: 0;
+    white-space: nowrap;
+}
+.mob-2{
+    left: -12px;
+}
+
+.pic{
+top: -157px;
+}
+.set{
+    margin-top:-163px;
+}
+.arr{
+    right:-462px ;
+    top:272px;
+}
+.t-1{
+margin-top:-385px;
+font-size:2.5rem;
+font-weight: 600;
+}
+.co{
+    color: var(--primary);
+}
+.co2{
+    color: var(--secondary);
+}
+.t-2{
+    margin-top: -415px;
+    
+}
+.hw-1{
+    width:95px;
+    height: 40px;
+    color:gray;
+    border-color:grey;
+     border-style: solid;
+    
+}
+.bde{
+    background-color: var(--primary);
+    color: white;
+    border: none;
+}
+.hw-2{
+    height:40px ;
+    width: 110px;
+    color: grey;
+    border-style: solid;
+    border-color: grey;
+}
+
+.mat{
+     
+    top: -123px;
+}
+.mat-2{
+    top:-82px ;
+}
+.fot-1{
+    font-size:2.6rem;
+    font-weight: 600;
+}
+.co{
+    color: var(--primary);
+}
+.co2{
+    color: var(--secondary);
+}
+.mt3{
+    top:180px;
+}
+.co3{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.btn-6{
+    width:172px;
+    height: 55px;
+    background-color: black;
+    border: none;
+    
+}
+.fo{
+    font-size:19px;
+    font-weight:600;
+    color: white;
+    top: -15px;
+    right:9px;
+}
+.fo1{
+    font-size:12px ;
+    color: white;
+    right: 13px;
+}
+.img-set{
+    
+    top: 10px;
+    width:36px;
+    height:35px;
+    left: -12px;
+    
+}
+
+.btn-7{
+    width:162px;
+    height: 55px;
+    background-color: black;
+    border: none;
+}
+.logoset{
+     width:31px;
+    height:32px;
+    left: -53px;
+    top: 10px;
+
+}
+.fo-2{
+       font-size:19px;
+    font-weight:600;
+    color: white;
+    top: -30px;
+    right:19px;
+}
+.fo2{
+     font-size:13px ;
+    color: white;
+    right: 13px;
+    top: -25px;
+    right: -19px;
+}
+
+.hero-1{
+    top:-313px;
+    right: -25px;
+}
+.stn{
+  right:-410px;
+  top: 20px;
+}
+.seek{
+top: -456px;
+right:-300px;
+
+}
+.up{
+    top: -270px;
+    
+}
+.ft{
+font-size:2.4rem;
+color: var(--primary);
+font-weight:600;
+
+}
+.ft2{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.big{
+    width:168px;
+    height: 40px;
+}
+.btn-f{
+    height: 50px;
+    width:230px;
+    border: none;
+    color: grey;
+    
+}
+.btn-l{
+background-color: var(--primary);
+color: white;
+border: none;
+height: 50px;
+width:127px;
+right: -18px;
+
+}
+.tex{
+
+    right:67px;
+}
+
+.last-line{
+    top: -110px;
+    font-size: 1.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================= RESPONSIVE CODE (style.css ke end mein SIRF EK BAAR paste karo) ================= */
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* Click Me button: laptop par hidden */
+.menu-toggle {
+    display: none;
+}
+
+/* ---------- MINI TABLET + MOBILE (<= 1099px) ---------- */
+@media (max-width: 1099.98px) {
+
+    .dotted-line, .arrow, .dotted-line2, .arrow2,
+    .rose {
+        display: none !important;
+    }
+
+    .navbar .container-fluid > .position-relative {
+        display: none;
+    }
+
+    /* ===== NAVBAR: logo | Click Me (darmain) | Download App ===== */
+    .navbar .container-fluid {
+        display: grid !important;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+    .logo { width: 120px; }
+    .navbar-brand { grid-column: 1; justify-self: start; }
+
+    /* Click Me button: red border + red text */
+    .menu-toggle {
+        grid-column: 2;
+        justify-self: center;
+        display: inline-block;
+        padding: 6px 18px;
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--primary);
+        background: rgba(255, 255, 255, .35);
+        border: 1.5px solid var(--primary);
+        border-radius: 8px;
+    }
+
+    .navbar .btn-2 { grid-column: 3; justify-self: end; }
+
+    /* click karne par links neeche darmain khulte hain */
+    #navMenu {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        width: 100%;
+        margin: 14px 0 0 !important;
+    }
+    #navMenu .navbar-nav {
+        flex-direction: column !important;
+        align-items: center;
+        text-align: center;
+        gap: 6px;
+        padding: 14px 0;
+        font-size: 1.05rem;
+        background: rgba(255, 255, 255, .85);
+        border: 1.5px solid var(--primary);
+        border-radius: 16px;
+        box-shadow: 0 6px 18px rgba(252, 51, 51, .15);
+    }
+
+    .img-h { width: 100%; max-width: 560px; top: 0; }
+
+    .t-1 { margin-top: 40px !important; font-size: 2.2rem; }
+    .t-2 { margin-top: 20px !important; flex-wrap: wrap !important; gap: 10px !important; }
+    .mat, .mat-2 { top: 0 !important; }
+
+    .up { top: 0 !important; margin-bottom: 24px; }
+    .last-line { top: 0 !important; margin-top: 20px; font-size: 1.2rem; }
+    .tex { right: 0 !important; }
+}
+
+/* ---------- MINI TABLET (<= 1099px: stacked design, mobile jaisa) ---------- */
+@media (max-width: 1099.98px) {
+
+    .col-6 {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+    .col-3 {
+        width: 50% !important;
+        flex: 0 0 50% !important;
+    }
+
+    .bg-header .row { display: flex; }
+    .bg-header .row > .col-6:last-child { order: -1; text-align: center; }
+    .bg-header .col-6.p-5 {
+        padding: 20px 16px !important;
+        align-items: center;
+        text-align: center;
+    }
+    .trust { left: 0; width: fit-content; margin: 0 auto; }
+    .h-heading { font-size: 3rem; }
+    .h-heading2 { text-align: center; }
+
+    .search-box { width: 100%; max-width: 380px; margin: 0 auto; }
+    .btn-1 { width: 100%; }
+    .bg-header .col-6.p-5 .d-flex { justify-content: center; }
+
+    .food-card { margin-left: auto; margin-right: auto; }
+
+    /* About Us aur Menu heading ke darmiyan space (44px + thora sa 3.5%) */
+    .t-1 { margin-top: calc(44px + 3.5%) !important; }
+
+    /* ===== FOOTER (mini tablet + mobile): sab left-aligned, mobile jaisa ===== */
+    footer {
+        margin-top: calc(44px + 4%) !important;
+        padding-bottom: 64px !important;
+        text-align: left;
+    }
+    footer .container,
+    footer .container-fluid { padding-left: 24px; padding-right: 24px; }
+
+    footer .col-4 {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    footer .col-2 {
+        width: 50% !important;
+        flex: 0 0 50% !important;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    footer .big { margin-left: 0; margin-right: 0; display: block; }
+
+    /* Copyright line darmain */
+    .last-line { text-align: center; }
+}
+
+/* ---------- <= 991px: section 3 aur app section ka stacked (mobile jaisa) design ---------- */
+@media (max-width: 991.98px) {
+
+    .arr, .stn, .seek, .mob {
+        display: none !important;
+    }
+
+    .col-7, .col-5 {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+
+    .pic { top: 0 !important; right: 0 !important; width: 100%; max-width: 520px; display: block; margin: 0 auto; }
+    .set { margin-top: 0 !important; align-items: flex-start !important; padding: 20px 16px; }
+    .font-1, .font1-1, .font-2, .font2-2, .font2-2-2,
+    .font3, .btn-a, .mar {
+        left: 0 !important;
+        top: 0 !important;
+    }
+    .font-1 { font-size: 2.3rem; }
+    .font3 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 24px;
+        margin-top: 10px !important;
+    }
+    .services {
+        position: static !important;
+        white-space: normal;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .mob-2 { left: 0 !important; height: 22px; width: auto; }
+
+    .mt3 { top: 0 !important; }
+    .hero-1 {
+        top: 0 !important;
+        right: 0 !important;
+        width: 100%;
+        max-width: 380px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* ===== SECTION 3 ===== */
+
+    .row.g-0 > .col-6:first-child {
+        overflow: hidden;
+        aspect-ratio: 4 / 5;
+        max-width: 520px;
+        margin: 10px 0 0;
+        -webkit-mask-image:
+            linear-gradient(to right, #000 0, #000 94%, transparent 100%),
+            linear-gradient(to bottom, transparent 0, #000 6%, #000 94%, transparent 100%);
+        -webkit-mask-composite: source-in;
+        mask-image:
+            linear-gradient(to right, #000 0, #000 94%, transparent 100%),
+            linear-gradient(to bottom, transparent 0, #000 6%, #000 94%, transparent 100%);
+        mask-composite: intersect;
+    }
+    .pic {
+        width: 140% !important;
+        max-width: none !important;
+        margin: -34% 0 0 0 !important;
+        top: 0 !important;
+        right: 0 !important;
+        display: block;
+    }
+
+    .set {
+        display: block !important;
+        text-align: left;
+        max-width: 720px;
+        margin: 0 auto !important;
+        padding: 24px 12px 0;
+    }
+
+    .font-1 {
+        display: inline !important;
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 1.25;
+        text-align: left;
+    }
+
+    .font-2 {
+        display: inline !important;
+        font-size: 1rem;
+        font-weight: 450;
+        line-height: 1.7;
+        text-align: left;
+    }
+    .font-2.mt-3::before {
+        content: "";
+        display: block;
+        height: 18px;
+    }
+
+    .ops {
+        display: grid !important;
+        grid-template-columns: 36px 1fr;
+        column-gap: 14px;
+        row-gap: 18px;
+        align-items: center;
+        justify-content: start;
+        margin-top: 28px;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: left;
+    }
+    .ops .font3 { display: contents !important; }
+
+    .ops > .mob {
+        display: block !important;
+        position: static !important;
+        margin: 0 !important;
+        left: 0 !important;
+        top: 0 !important;
+        grid-column: 1;
+    }
+    .ops > .mob:nth-child(2) { grid-row: 1; }
+    .ops > .mob:nth-child(4) { grid-row: 2; }
+    .ops > .mob:nth-child(6) { grid-row: 3; }
+    .ops .mob img, .ops .mob-2 {
+        width: 36px;
+        height: 36px;
+        object-fit: contain;
+    }
+
+    .ops .services {
+        display: flex !important;
+        align-items: center;
+        gap: 14px;
+        grid-column: 1 / -1;
+        position: static !important;
+        white-space: normal;
+    }
+    .ops .font3:nth-child(1) .services { grid-row: 4; }
+    .ops .font3:nth-child(3) .services { grid-row: 5; }
+    .ops .font3:nth-child(5) .services { grid-row: 6; }
+    .ops .mob-2 { left: 0 !important; margin: 0 !important; }
+
+    .ops .btn-a {
+        grid-column: 2 / -1;
+        grid-row: 7;
+        justify-self: start;
+        margin-top: 12px !important;
+        left: 0 !important;
+        top: 0 !important;
+    }
+
+    /* ===== APP SECTION: pic upar (DARMAIN), text neeche ===== */
+    section .row > .col-5 {
+        order: -1;
+        position: relative;
+        aspect-ratio: 1105 / 1263;
+        max-width: 620px;
+        margin: 44px auto 0;
+        padding: 0;
+    }
+    .col-5 > img.hero-1,
+    .col-5 > img.stn,
+    .col-5 > img.seek {
+        display: block !important;
+        position: absolute !important;
+        right: auto !important;
+        max-width: none !important;
+        height: auto;
+        margin: 0 !important;
+    }
+    .col-5 > img.hero-1 { left: 10.3% !important;  top: 5.4% !important;  width: 79.4% !important; z-index: 1; }
+    .col-5 > img.stn    { left: 58.6% !important;  top: 4.6% !important;  width: 33.8% !important; z-index: 2; }
+    .col-5 > img.seek   { left: 45%   !important;  top: 73.6% !important; width: 34.7% !important; z-index: 2; }
+
+    .mt3 { margin-top: 10px; text-align: center; }
+    .co3 { max-width: 100%; }
+
+    /* ===== APP SECTION TEXT ki spacing =====
+       .mt3 ke andar 4 hisse hain:
+         1) "It's Now More Easy to Order"   2) "by Our Mobile App"
+         3) paragraph                       4) black buttons                       */
+    .mt3 > * {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .mt3 > * + * {
+        margin-top: 70px !important;
+    }
+    .mt3 > :nth-child(2) {
+        margin-top: 0 !important;
+    }
+    .mt3 > :nth-child(3) {
+        margin-top: 32px !important;
+    }
+    .mt3 p { margin: 0 !important; }
+    .mt3 > *:not(:first-child):not(.d-flex),
+    .mt3 > *:not(:first-child):not(.d-flex) * {
+        line-height: 1.7 !important;
+    }
+    .mt3 br + br { display: none !important; }
+    .d-flex.gap-5 { gap: 12px !important; justify-content: center; }
+}
+
+/* ---------- BARA MOBILE / CHHOTA TABLET (<= 767px) ---------- */
+@media (max-width: 767.98px) {
+    .set { max-width: 540px; }
+}
+
+/* ---------- MOBILE (<= 575px) ---------- */
+@media (max-width: 575.98px) {
+
+    /* ===== NAVBAR (real mobile): Click Me ke left-right gap barabar ===== */
+    .navbar .container-fluid {
+        grid-template-columns: auto 1fr auto;   /* logo | (Click Me darmain) | Download */
+        column-gap: 8px;
+    }
+    .logo { width: 90px; }
+    .navbar .btn-2 {
+        width: 120px;
+        font-size: .85rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .menu-toggle { padding: 5px 10px; font-size: .85rem; }
+
+    .h-heading { font-size: 2.3rem; }
+
+    /* hero paragraph: har sentence ek line mein (3rd pic jaisa), screen ke hisab se font */
+    .h-heading2 { font-size: clamp(.7rem, 3.5vw, 1rem); }
+
+    /* ===== SIRF "Watch Video" (sab mobiles: Samsung, Redmi, iPhone): ek line, chhota, 2nd pic jaisa =====
+       Downlode App aur play button ka size nahi badla, sirf Watch Video text theek kiya hai */
+    .bg-header .col-6.p-5 .d-flex:not(.trust):not(.search-box) {
+        flex-wrap: nowrap !important;
+        align-items: center !important;
+        gap: 12px !important;
+    }
+    .bg-header .col-6.p-5 .d-flex:not(.trust):not(.search-box) > :last-child {
+        flex: 0 0 auto !important;
+        width: auto !important;
+        min-width: 0 !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+        white-space: nowrap !important;
+    }
+    .bg-header .col-6.p-5 .d-flex:not(.trust):not(.search-box) > :last-child,
+    .bg-header .col-6.p-5 .d-flex:not(.trust):not(.search-box) > :last-child * {
+        white-space: nowrap !important;
+        font-size: clamp(.8rem, 3.7vw, 1.05rem) !important;
+        line-height: 1.2 !important;
+    }
+
+    /* ===== "Today special offers" ke neeche ki lines =====
+       Font ka size bilkul normal (pehle jitna, 1rem). Har sentence apni line se shuru hoti hai,
+       aur agar toote to dono lines barabar lambai ki (balanced), koi akeli line nahi.
+       (heading "Today special offers" ko kuch nahi kiya) */
+    .sp-h2,
+    .sp-h1 + p {
+        text-wrap: balance;
+    }
+
+    /* ===== "by Our Mobile App" ke neeche wala paragraph: size wohi, line-breaks balanced ===== */
+    .mt3 > :nth-child(3),
+    .mt3 > :nth-child(3) * {
+        text-wrap: balance;
+    }
+
+    .img-h { max-width: 340px; }
+    .btn-1 { font-size: 1rem; }
+
+    .col-3 {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+    .sp-h1 { font-size: 2.2rem; }
+
+    .set { max-width: none; padding: 20px 12px 0; }
+    .font-1 { font-size: 2.2rem; }
+    .ops {
+        grid-template-columns: 30px 1fr;
+        column-gap: 12px;
+        font-size: 1.05rem;
+    }
+    .ops .mob img, .ops .mob-2 { width: 30px; height: 30px; }
+    .ops .services { gap: 12px; }
+
+    .t-1 { font-size: 1.9rem; }
+    .hw-1, .hw-2 { height: 36px; width: auto; padding: 0 16px; font-size: .85rem; }
+
+    .fot-1 { font-size: 1.9rem; }
+    .co3 { font-size: 1rem; }
+
+    .ft { font-size: 1.5rem; }
+    .ft2 { font-size: 1rem; }
+    .btn-f { width: 100%; max-width: 230px; }
+    /* red Subscribe button thora sa neeche (Samsung/Redmi par stacked) */
+    .btn-l { right: 0 !important; margin-top: 21px; }
+    .last-line { font-size: 1rem; }
+}
+
+/* ---------- SMALL PHONES (<= 380px) ---------- */
+@media (max-width: 380px) {
+    .h-heading { font-size: 2rem; }
+    .img-2 { width: 29px; height: 29px; }
+    .star { font-size: 28px; }
+    .rating-text { font-size: 1rem; }
+    .btn-6, .btn-7 { transform: scale(.9); transform-origin: left center; }
+    .logo { width: 80px; }
+    .navbar .btn-2 { width: 108px; font-size: .78rem; }
+    .menu-toggle { padding: 4px 8px; font-size: .8rem; }
+}
+
+/* ---------- SIRF iPHONE (iOS Safari/Chrome) ---------- */
+@supports (-webkit-touch-callout: none) {
+    @media (max-width: 575.98px) {
+
+        /* Email aur Subscribe ke darmiyan thora sa gap (230 -> 222 + 8) */
+        .btn-f {
+            max-width: 222px;
+            margin-right: 8px;
+        }
+
+        /* "by Our Mobile App" ke neeche wala paragraph: iPhone par bhi Samsung jaisi lines.
+           Writing ka size wohi hai, sirf paragraph ki chaurai tay ki hai taake
+           3rd line "a and most companies are opting" par toote, aur "for mobile app devlopment for" /
+           "food delivery" neeche aayein. */
+        .mt3 > :nth-child(3) {
+            max-width: 17.3em;
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+    }
+}
+
+/* ---------- GOOGLE PLAY + APP STORE buttons: bilkul darmain, left-right ki jagah barabar (Redmi, Samsung, iPhone SE sab) ---------- */
+@media (max-width: 575.98px) {
+
+    .mt3 .d-flex.gap-5 {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        gap: 32px !important;
+        width: 100% !important;
+        max-width: none !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+    }
+
+    /* buttons ke apne left/right margin aur chhota-karne wala transform band (wo buttons ko left taraf khinch raha tha) */
+    .mt3 .btn-6,
+    .mt3 .btn-7 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        transform: none !important;
+        flex: 0 0 auto !important;
+    }
+}
+
+/* chhoti screens par dono buttons ek line mein fit ho jayen (dono taraf barabar jagah bachti hai) */
+@media (max-width: 420px) { .mt3 .d-flex.gap-5 { zoom: .96; } }
+@media (max-width: 385px) { .mt3 .d-flex.gap-5 { zoom: .89; } }
+@media (max-width: 360px) { .mt3 .d-flex.gap-5 { zoom: .84; } }
+@media (max-width: 340px) { .mt3 .d-flex.gap-5 { zoom: .78; } }
+
+/* ---------- 992px se 1099px: 4 cards ek line mein (sirf isi size ke liye) ---------- */
+@media (min-width: 992px) and (max-width: 1099.98px) {
+    .col-3 {
+        width: 25% !important;
+        flex: 0 0 25% !important;
+    }
+    .col-3 .food-card {
+        zoom: .88;
+    }
+}
+
+/* ---------- 992px se 1099px: section 3 aur app section ka laptop jaisa design (chhota kar ke) ---------- */
+@media (min-width: 992px) and (max-width: 1099.98px) {
+    :root { --z: .66; }
+
+    .container-fluid.p-0,
+    section:has(.mt3) {
+        zoom: var(--z);
+    }
+    .container-fluid.p-0 .col-6 {
+        width: 50% !important;
+        flex: 0 0 50% !important;
+    }
+    section:has(.mt3) .container { max-width: 1320px; }
+    .t-1 { margin-top: calc(-385px * var(--z)) !important; }
+}
+@media (min-width: 992px) and (max-width: 1029.98px) { :root { --z: .63; } }
+@media (min-width: 1065px) and (max-width: 1099.98px) { :root { --z: .69; } }
+
+/* ---------- BADE TABLETS + MINI LAPTOPS (1100px se 1584px): laptop jaisa hi design, screen ke hisab se chhota ----------
+   1585px aur us se bade (tumhara apna laptop) par kuch nahi badla. */
+@media (min-width: 1100px) and (max-width: 1584.98px) {
+    .container { max-width: 1320px; }
+}
+/* 1100px se 1199px par nav links khud dikhein (laptop jaisa) */
+@media (min-width: 1100px) and (max-width: 1199.98px) {
+    #navMenu { display: flex !important; }
+}
+@media (min-width: 1100px) and (max-width: 1149.98px) { body { zoom: .694; } }
+@media (min-width: 1150px) and (max-width: 1199.98px) { body { zoom: .726; } }
+@media (min-width: 1200px) and (max-width: 1249.98px) { body { zoom: .757; } }
+@media (min-width: 1250px) and (max-width: 1299.98px) { body { zoom: .789; } }
+@media (min-width: 1300px) and (max-width: 1349.98px) { body { zoom: .82; } }
+@media (min-width: 1350px) and (max-width: 1399.98px) { body { zoom: .852; } }
+@media (min-width: 1400px) and (max-width: 1449.98px) { body { zoom: .883; } }
+@media (min-width: 1450px) and (max-width: 1499.98px) { body { zoom: .915; } }
+@media (min-width: 1500px) and (max-width: 1549.98px) { body { zoom: .946; } }
+@media (min-width: 1550px) and (max-width: 1584.98px) { body { zoom: .978; } }
+
+
+
+
+
+
+/* ---------- 992px se 1099px: footer bhi laptop jaisa (4 columns), chhota kar ke ---------- */
+@media (min-width: 992px) and (max-width: 1099.98px) {
+    footer {
+        zoom: var(--z);
+        margin-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    footer .container,
+    footer .container-fluid {
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        padding-right: calc(var(--bs-gutter-x) * .5);
+    }
+    footer .container { max-width: 1320px; }
+    footer .col-4 {
+        width: 33.33333333% !important;
+        flex: 0 0 auto !important;
+        margin-bottom: 0;
+    }
+    footer .col-2 {
+        width: 16.66666667% !important;
+        flex: 0 0 auto !important;
+        margin-bottom: 0;
+    }
+    footer .big { display: inline; }
+    .up { top: -270px !important; margin-bottom: 0; }
+    .last-line { top: -110px !important; margin-top: 0; font-size: 1.4rem; }
+    .tex { right: 67px !important; }
+}
+
+
+
+
+
+
+
+
+/* ---------- 992px se 1099px: Menu heading/8 buttons ki spacing + cards aur app section ke darmiyan spacing ---------- */
+@media (min-width: 992px) and (max-width: 1099.98px) {
+    /* Menu heading ko section 3 ke neeche laane wali negative space (pehle .t-1 par thi) ab container par */
+    .container:has(> .row > .t-1) { margin-top: calc(-385px * var(--z)); }
+    .t-1 { margin-top: 0 !important; align-self: flex-start; }
+    /* heading aur 8 buttons ke darmiyan thori si space */
+    .t-2 { margin-top: 24px !important; align-self: flex-start; }
+    /* cards aur app section ke darmiyan thori zyada space */
+    section:has(.mt3) { margin-top: calc(45px / var(--z)); }
+}
+
+
+
+
+
+/* ---------- 992px se 1099px: 8 buttons aur cards ke neeche thori si extra space ---------- */
+@media (min-width: 992px) and (max-width: 1099.98px) {
+    .t-2 { margin-bottom: 5vw; }                      /* 8 buttons ke neeche ~5% */
+    .food-card.mat   { margin-bottom: 4vw; }          /* pehle 4 cards ke neeche ~3.5% */
+    .food-card.mat-2 { margin-bottom: 5.7vw; }        /* aakhri 4 cards ke neeche ~5% */
+}
+
+
+
+/* ---------- 992px se 1099px: 8 buttons aur cards ke neeche thori si extra space ---------- */
+@media (min-width: 992px) and (max-width: 1099.98px) {
+    .t-2 { margin-bottom: 3vw; }
+    .food-card.mat   { margin-bottom: 2vw; }
+    .food-card.mat-2 { margin-bottom: 5.7vw; }        /* aakhri 4 cards ke neeche ~5% (pehle jaisi) */
+}
+
+
+
+/* ---------- 1100px se 1584px: girl ke sath wale arrows ki jagah (laptop jaisi, girl ke sath touch) ---------- */
+@media (min-width: 1100px) and (max-width: 1584.98px) {
+    .dotted-line2 { right: calc(-20px + 100% - 792.5px); }
+    .arrow2       { right: calc(110px + 100% - 792.5px); }
+}
